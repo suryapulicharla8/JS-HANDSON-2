@@ -1,0 +1,35 @@
+body {
+    background-color:bisque;
+}
+h1 {
+    color: blueviolet;
+    /* text-align: center; */
+    animation-name: h1;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transition: ease-in;
+    animation-duration: 10s;
+
+}
+@keyframes h1 {
+    100% {transform: translateX(900px);}
+    
+}
+h2 {
+    background: linear-gradient(to right,green,blue,red);
+    text-align: center;
+}
+h3 {
+    color: darkred;
+}
+p {
+    color: blue;
+}
+pre {
+    color:darkgreen;
+}
+pre:hover {
+    font-size: 18px;
+    color: red;
+}
